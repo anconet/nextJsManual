@@ -1,7 +1,11 @@
 # Manual Install of Next Js.
 ---
-# Todo
+[Manual Install Intructions at nextjs.org](https://nextjs.org/docs/getting-started/installation#manual-installation)
 
+
+---
+# Todo
+- Nothing at the moment
 ---
 
 ```bash
@@ -90,4 +94,4 @@ export default function RootLayout({
   )
 }
 ```
-Add Tailwind Extention to VSCodeL `Tailwind CSS IntelliSense` by Tailwind Labs
+Add Tailwind Extention to VSCode `Tailwind CSS IntelliSense` by Tailwind Labs
