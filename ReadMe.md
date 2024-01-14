@@ -9,13 +9,15 @@
 ---
 
 ```bash
-mkdir my-app
-cd my-app
+mkdir <projectName>
+cd <projectName>
 npm install next@latest
 npm install react@latest
 npm install react-dom@latest
 ```
-Add the following to `package.json`:
+Add the following to
+
+`package.json`
 ```json
   "scripts": {
     "dev": "next dev",
@@ -25,7 +27,15 @@ Add the following to `package.json`:
   },
 
 ```
-create `/app` directory and initial `layout.tsx` and `page.tsx`
+Create a hello world app:
+
+```bash
+mkdir <projectName>/app
+cd /app
+touch layout.tsx
+touch page.tsx
+```
+Edit the files
 
 `layout.tsx`
 ```typescript
